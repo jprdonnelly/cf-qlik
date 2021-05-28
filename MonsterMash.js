@@ -14,10 +14,10 @@ var config = {
 	isSecure: window.location.protocol === "https:"
 };
 //to avoid errors in dev-hub: you can remove this when you have added an app
-// var app;
-// require.config( {
-// 	baseUrl: (config.isSecure ? "https://" : "http://" ) + config.host + (config.port ? ":" + config.port : "" ) + config.prefix + "resources"
-// } );
+var app;
+require.config( {
+	baseUrl: (config.isSecure ? "https://" : "http://" ) + config.host + (config.port ? ":" + config.port : "" ) + config.prefix + "resources"
+} );
 
 require( ["js/qlik"], function ( qlik ) {
 
