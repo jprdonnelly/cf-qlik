@@ -5,7 +5,7 @@
 /*
  *    Fill in host and port for Qlik engine
  */
-var prefix = window.location.pathname.substr( 0, window.location.pathname.toLowerCase().lastIndexOf( "/extensions" ) + 1 );
+// var prefix = window.location.pathname.substr( 0, window.location.pathname.toLowerCase().lastIndexOf( "/extensions" ) + 1 );
 
 var config = {
 	host: "qseow.jprdonnelly.com/",
