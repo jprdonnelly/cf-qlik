@@ -8,8 +8,8 @@
 var prefix = window.location.pathname.substr( 0, window.location.pathname.toLowerCase().lastIndexOf( "/extensions" ) + 1 );
 
 var config = {
-	host: "qseow.jprdonnelly.com",
-	prefix: "oidc",
+	host: "qseow.jprdonnelly.com/",
+	prefix: "oidc/",
 	port: window.location.port,
 	isSecure: window.location.protocol === "https:"
 };
